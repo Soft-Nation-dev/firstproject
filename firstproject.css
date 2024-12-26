@@ -1,0 +1,307 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+
+.img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.4s;
+}
+.img:hover{
+    height: 35px;
+    width: 35px;
+}
+
+
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header h2{
+    font-size: 130%;
+    font-style: italic;
+    cursor: pointer;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(247, 218, 182);
+    border-bottom: 1px solid rgb(223, 198, 168);
+}
+nav{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 10%;
+    font-size: 108%;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-decoration: none;
+}
+button{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.in{
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.4s;
+    
+}
+.in:hover{
+    border: 1px solid grey;
+    background-color: rgb(224, 199, 199);
+    border-radius: 3px;
+}
+.in:active{
+    opacity: 0.5;
+}
+.reg{
+    background-color: blueviolet;
+    font-weight: bolder;
+    font-size: 15px;
+    color: beige;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 20%;
+    transition: all 0.4s;
+}
+.reg:hover{
+    padding: 5px 8px;
+}
+.reg:active{
+    background-color: rgb(181, 130, 229);
+}
+
+.menu{
+    display: none;
+}
+
+.get-started-div{
+    display: flex;
+    flex-shrink: 0;
+}
+
+.started{
+    text-transform: uppercase;
+    color: beige;
+    background-color: blueviolet;
+  padding: 8px 8px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: 900;
+    border-top-left-radius: 20px;
+    margin-top: 7px;
+    transition: all 0.4s;
+}
+.started:hover{
+    padding: 9px 9px;
+}
+.started:active{
+    opacity: 0.5;
+}
+.hero{
+   display: flex;
+   justify-content: space-between;
+   line-height: 50px;
+   margin-top: 50px;
+   margin-left: 15px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.become:hover{
+   text-decoration: underline;
+
+}
+.nd img{
+    height: 15px;
+    background-color: blueviolet;
+    padding: 4px;
+    border-radius: 30%;
+}
+.serv{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400; 
+}
+
+.foot div{
+    padding: 12px;
+}
+
+.foot div:hover{
+    background-color: beige;
+transition: all 0.4s ease;
+cursor: pointer;
+border-radius: 10px;
+}
+.foot{
+    background-color: bisque;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    white-space-collapse: 0;
+}
+.hero h2{
+    font-size: 3rem;
+}
+.hero p{
+    font-size: 18px;
+}
+.se{
+    font-size: xx-large;
+    font-style: italic;
+}
+.ter nav{
+    justify-content: center;
+
+}
+.ter img{
+    position: relative;
+    top: 70px;
+}
+.ter h2{
+    position: relative;
+    top: 55px;
+}
+.imgf img{
+    height: 20px;
+    position: relative;
+    left: 67rem;
+margin-left: 10px;
+
+}
+.con{
+    display: flex;
+}
+.con img{
+    height: 20px;
+    margin-left: 10px;
+    object-position: 20p;
+    border-bottom: 80px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: baseline;
+}
+footer h2{
+    cursor: pointer;
+}
+
+.mam{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+.mam:hover{
+    height: 35px;
+    width: 35px;
+}
+
+.faaa{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.ali img{
+    height: 20px;
+    margin-top: 15px;
+}
+footer a{
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+tfutf{
+    
+}
+
+@media (max-width:332px){
+    .foot{
+        line-height: 30px;
+    }
+
+}
+
+
+@media (min-width:710px) {
+    .hero{
+        display: flex;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .foot div{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:825px) {
+    nav{
+        display: none;
+    }
+    .hero{
+        display: block;
+        margin-top: 90px;
+    }
+    .auth{
+        display: none;
+    }
+.menu{
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    text-transform: capitalize;
+    bottom: 3px;
+}
+.hero{
+    text-align: center;
+}
+footer a{
+    display: none;
+}
+}
+
+@media (min-width:999px){
+    .foot{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
